@@ -1,0 +1,99 @@
+{
+  "content_fetched": true,
+  "content_markdown": "Given a string `s` containing just the characters `'('`, `')'`, `'{'`, `'}'`, `'['` and `']'`, determine if the input string is valid.\n\nAn input string is valid if:\n\n1. Open brackets must be closed by the same type of brackets.\n\n2. Open brackets must be closed in the correct order.\n\n3. Every close bracket has a corresponding open bracket of the same type.\n\n \n\n**Example 1:**\n\n**Input:** s = \"()\"\n\n**Output:** true\n\n**Example 2:**\n\n**Input:** s = \"()[]{}\"\n\n**Output:** true\n\n**Example 3:**\n\n**Input:** s = \"(]\"\n\n**Output:** false\n\n**Example 4:**\n\n**Input:** s = \"([])\"\n\n**Output:** true\n\n**Example 5:**\n\n**Input:** s = \"([)]\"\n\n**Output:** false\n\n \n\n**Constraints:**\n\n- `1 <= s.length <= 10^4`\n\n- `s` consists of parentheses only `'()[]{}'`.",
+  "content_unavailable_reason": null,
+  "difficulty": "Easy",
+  "last_synced_at": "2026-08-26T08:33:57.862248+00:00",
+  "number": "20",
+  "slug": "valid-parentheses",
+  "submissions": [
+    {
+      "code_saved": true,
+      "id": "2106326860",
+      "lang": "c",
+      "memory": "N/A",
+      "runtime": "N/A",
+      "status": "Wrong Answer",
+      "timestamp": 1786692494
+    },
+    {
+      "code_saved": true,
+      "id": "2106327936",
+      "lang": "c",
+      "memory": "N/A",
+      "runtime": "N/A",
+      "status": "Runtime Error",
+      "timestamp": 1786692571
+    },
+    {
+      "code_saved": true,
+      "id": "2106328830",
+      "lang": "c",
+      "memory": "N/A",
+      "runtime": "N/A",
+      "status": "Runtime Error",
+      "timestamp": 1786692637
+    },
+    {
+      "code_saved": true,
+      "id": "2106329734",
+      "lang": "c",
+      "memory": "N/A",
+      "runtime": "N/A",
+      "status": "Runtime Error",
+      "timestamp": 1786692705
+    },
+    {
+      "code_saved": true,
+      "id": "2106330624",
+      "lang": "c",
+      "memory": "N/A",
+      "runtime": "N/A",
+      "status": "Wrong Answer",
+      "timestamp": 1786692774
+    },
+    {
+      "code_saved": true,
+      "id": "2106332310",
+      "lang": "c",
+      "memory": "8.8 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786692907
+    },
+    {
+      "code_saved": true,
+      "id": "2106332709",
+      "lang": "c",
+      "memory": "8.9 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786692938
+    },
+    {
+      "code_saved": true,
+      "id": "2106346126",
+      "lang": "c",
+      "memory": "N/A",
+      "runtime": "N/A",
+      "status": "Runtime Error",
+      "timestamp": 1786694016
+    },
+    {
+      "code_saved": true,
+      "id": "2106346895",
+      "lang": "c",
+      "memory": "8.8 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786694080
+    }
+  ],
+  "title": "Valid Parentheses",
+  "topics": [
+    "String",
+    "Stack",
+    "Bracket Sequences"
+  ],
+  "url": "https://leetcode.com/problems/valid-parentheses/"
+}

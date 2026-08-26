@@ -1,0 +1,62 @@
+{
+  "content_fetched": true,
+  "content_markdown": "You are given an array of integers `nums` and an integer `target`, return *indices of the two numbers such that they add up to `target`*.\n\nYou may assume that each input would have ***exactly* one solution**, and you may not use the *same* element twice.\n\nYou can return the answer in any order.\n\n \n\n**Example 1:**\n\n```\n\n**Input:** nums = [2,7,11,15], target = 9\n**Output:** [0,1]\n**Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1].\n\n```\n\n**Example 2:**\n\n```\n\n**Input:** nums = [3,2,4], target = 6\n**Output:** [1,2]\n\n```\n\n**Example 3:**\n\n```\n\n**Input:** nums = [3,3], target = 6\n**Output:** [0,1]\n\n```\n\n \n\n**Constraints:**\n\n- `2 <= nums.length <= 10^4`\n\n- `-10^9 <= nums[i] <= 10^9`\n\n- `-10^9 <= target <= 10^9`\n\n- **Only one valid answer exists.**\n\n \n**Follow-up: **Can you come up with an algorithm that is less than `O(n^2)` time complexity?",
+  "content_unavailable_reason": null,
+  "difficulty": "Easy",
+  "last_synced_at": "2026-08-26T08:34:41.058649+00:00",
+  "number": "1",
+  "slug": "two-sum",
+  "submissions": [
+    {
+      "code_saved": true,
+      "id": "2108643721",
+      "lang": "c",
+      "memory": "9.3 MB",
+      "runtime": "199 ms",
+      "status": "Accepted",
+      "timestamp": 1786862361
+    },
+    {
+      "code_saved": true,
+      "id": "2108644323",
+      "lang": "c",
+      "memory": "9.3 MB",
+      "runtime": "198 ms",
+      "status": "Accepted",
+      "timestamp": 1786862397
+    },
+    {
+      "code_saved": true,
+      "id": "2108646373",
+      "lang": "c",
+      "memory": "9.4 MB",
+      "runtime": "119 ms",
+      "status": "Accepted",
+      "timestamp": 1786862520
+    },
+    {
+      "code_saved": true,
+      "id": "2108648093",
+      "lang": "c",
+      "memory": "9.3 MB",
+      "runtime": "99 ms",
+      "status": "Accepted",
+      "timestamp": 1786862622
+    },
+    {
+      "code_saved": true,
+      "id": "2108650082",
+      "lang": "c",
+      "memory": "9.5 MB",
+      "runtime": "99 ms",
+      "status": "Accepted",
+      "timestamp": 1786862735
+    }
+  ],
+  "title": "Two Sum",
+  "topics": [
+    "Array",
+    "Hash Table"
+  ],
+  "url": "https://leetcode.com/problems/two-sum/"
+}

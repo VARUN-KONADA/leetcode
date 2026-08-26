@@ -1,0 +1,70 @@
+{
+  "content_fetched": true,
+  "content_markdown": "Given an integer `x`, return `true` if `x` is a **palindrome**, and `false` otherwise.\n\n \n\n**Example 1:**\n\n```\n\n**Input:** x = 121\n**Output:** true\n**Explanation:** 121 reads as 121 from left to right and from right to left.\n\n```\n\n**Example 2:**\n\n```\n\n**Input:** x = -121\n**Output:** false\n**Explanation:** From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.\n\n```\n\n**Example 3:**\n\n```\n\n**Input:** x = 10\n**Output:** false\n**Explanation:** Reads 01 from right to left. Therefore it is not a palindrome.\n\n```\n\n \n\n**Constraints:**\n\n- `-2^31 <= x <= 2^31 - 1`\n\n \n**Follow up:** Could you solve it without converting the integer to a string?",
+  "content_unavailable_reason": null,
+  "difficulty": "Easy",
+  "last_synced_at": "2026-08-26T08:35:02.068659+00:00",
+  "number": "9",
+  "slug": "palindrome-number",
+  "submissions": [
+    {
+      "code_saved": true,
+      "id": "2109069156",
+      "lang": "c",
+      "memory": "N/A",
+      "runtime": "N/A",
+      "status": "Wrong Answer",
+      "timestamp": 1786889509
+    },
+    {
+      "code_saved": true,
+      "id": "2109070412",
+      "lang": "c",
+      "memory": "9 MB",
+      "runtime": "3 ms",
+      "status": "Accepted",
+      "timestamp": 1786889576
+    },
+    {
+      "code_saved": true,
+      "id": "2109077859",
+      "lang": "c",
+      "memory": "8.9 MB",
+      "runtime": "2 ms",
+      "status": "Accepted",
+      "timestamp": 1786889975
+    },
+    {
+      "code_saved": true,
+      "id": "2109082837",
+      "lang": "c",
+      "memory": "8.9 MB",
+      "runtime": "2 ms",
+      "status": "Accepted",
+      "timestamp": 1786890236
+    },
+    {
+      "code_saved": true,
+      "id": "2109087363",
+      "lang": "c",
+      "memory": "9 MB",
+      "runtime": "3 ms",
+      "status": "Accepted",
+      "timestamp": 1786890472
+    },
+    {
+      "code_saved": true,
+      "id": "2109092326",
+      "lang": "c",
+      "memory": "8.9 MB",
+      "runtime": "1 ms",
+      "status": "Accepted",
+      "timestamp": 1786890743
+    }
+  ],
+  "title": "Palindrome Number",
+  "topics": [
+    "Math"
+  ],
+  "url": "https://leetcode.com/problems/palindrome-number/"
+}

@@ -1,0 +1,88 @@
+{
+  "content_fetched": true,
+  "content_markdown": "Given a string `s` consisting of words and spaces, return *the length of the **last** word in the string.*\n\nA **word** is a maximal substring consisting of non-space characters only.\n\n \n\n**Example 1:**\n\n```\n\n**Input:** s = \"Hello World\"\n**Output:** 5\n**Explanation:** The last word is \"World\" with length 5.\n\n```\n\n**Example 2:**\n\n```\n\n**Input:** s = \"   fly me   to   the moon  \"\n**Output:** 4\n**Explanation:** The last word is \"moon\" with length 4.\n\n```\n\n**Example 3:**\n\n```\n\n**Input:** s = \"luffy is still joyboy\"\n**Output:** 6\n**Explanation:** The last word is \"joyboy\" with length 6.\n\n```\n\n \n\n**Constraints:**\n\n- `1 <= s.length <= 10^4`\n\n- `s` consists of only English letters and spaces `' '`.\n\n- There will be at least one word in `s`.",
+  "content_unavailable_reason": null,
+  "difficulty": "Easy",
+  "last_synced_at": "2026-08-26T08:34:15.556078+00:00",
+  "number": "58",
+  "slug": "length-of-last-word",
+  "submissions": [
+    {
+      "code_saved": true,
+      "id": "2107404164",
+      "lang": "c",
+      "memory": "N/A",
+      "runtime": "N/A",
+      "status": "Runtime Error",
+      "timestamp": 1786781402
+    },
+    {
+      "code_saved": true,
+      "id": "2107406722",
+      "lang": "c",
+      "memory": "8.6 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786781594
+    },
+    {
+      "code_saved": true,
+      "id": "2107420663",
+      "lang": "c",
+      "memory": "8.6 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786782643
+    },
+    {
+      "code_saved": true,
+      "id": "2107420967",
+      "lang": "c",
+      "memory": "8.7 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786782665
+    },
+    {
+      "code_saved": true,
+      "id": "2107421373",
+      "lang": "c",
+      "memory": "8.8 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786782697
+    },
+    {
+      "code_saved": true,
+      "id": "2107422497",
+      "lang": "c",
+      "memory": "8.5 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786782783
+    },
+    {
+      "code_saved": true,
+      "id": "2107427247",
+      "lang": "c",
+      "memory": "8.9 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786783128
+    },
+    {
+      "code_saved": true,
+      "id": "2107428292",
+      "lang": "c",
+      "memory": "8.6 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786783201
+    }
+  ],
+  "title": "Length of Last Word",
+  "topics": [
+    "String"
+  ],
+  "url": "https://leetcode.com/problems/length-of-last-word/"
+}

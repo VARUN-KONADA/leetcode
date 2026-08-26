@@ -6,46 +6,63 @@ An automatically maintained archive of my LeetCode solutions, synced automatical
 
 ## 📊 LeetCode Dashboard
 
-_Last synced: 2026-08-26 13:02 IST_
+_Last synced: 2026-08-26 14:05 IST_
 
 ### Overall Progress
 
 | Metric | Count |
 | --- | --- |
-| Unique problems solved | **0** |
-| Total submissions | 0 |
-| Accepted submissions | 0 |
-| Failed submissions | 0 |
+| Unique problems solved | **16** |
+| Total submissions | 75 |
+| Accepted submissions | 53 |
+| Failed submissions | 22 |
 
 ### Difficulty
 
 | Difficulty | Solved | % | |
 | --- | --- | --- | --- |
-| Easy | 0 | 0.0% | `░░░░░░░░░░░░░░░░░░░░` |
+| Easy | 16 | 100.0% | `████████████████████` |
 | Medium | 0 | 0.0% | `░░░░░░░░░░░░░░░░░░░░` |
 | Hard | 0 | 0.0% | `░░░░░░░░░░░░░░░░░░░░` |
 
 ### Languages
 
-_No solved problems synced yet._
+| Language | Solved | % |
+| --- | --- | --- |
+| C | 16 | 100.0% |
 
 ### Streak
 
 🔥 **Current streak:** 0 day(s)  
-🏆 **Longest streak:** 0 day(s)
+🏆 **Longest streak:** 6 day(s)
 
 ### Recent Problems
 
-_No submissions synced yet._
+| Problem | Difficulty | Language | Status | Date |
+| --- | --- | --- | --- | --- |
+| [Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists/) | Easy | C | Accepted | Aug 23, 2026 |
+| [Search Insert Position](problems/0035-search-insert-position/) | Easy | C | Accepted | Aug 19, 2026 |
+| [Move Zeroes](problems/0283-move-zeroes/) | Easy | C | Accepted | Aug 19, 2026 |
+| [Can Place Flowers](problems/0605-can-place-flowers/) | Easy | C | Accepted | Aug 19, 2026 |
+| [Kids With the Greatest Number of Candies](problems/1431-kids-with-the-greatest-number-of-candies/) | Easy | C | Accepted | Aug 18, 2026 |
+| [Merge Strings Alternately](problems/1768-merge-strings-alternately/) | Easy | C | Accepted | Aug 18, 2026 |
+| [Remove Element](problems/0027-remove-element/) | Easy | C | Accepted | Aug 17, 2026 |
+| [Palindrome Number](problems/0009-palindrome-number/) | Easy | C | Accepted | Aug 16, 2026 |
+| [Remove Duplicates from Sorted Array](problems/0026-remove-duplicates-from-sorted-array/) | Easy | C | Accepted | Aug 16, 2026 |
+| [Two Sum](problems/0001-two-sum/) | Easy | C | Accepted | Aug 16, 2026 |
 
 ### Weekly / Monthly / Yearly Progress
 
 - This week: **0** unique problem(s) solved
-- This month: **0** unique problem(s) solved
-- This year: **0** unique problem(s) solved
+- This month: **16** unique problem(s) solved
+- This year: **16** unique problem(s) solved
+
+### Monthly Activity
+
+![Monthly activity](assets/activity.svg)
 
 ### Topics
 
-_No topic data synced yet._
+Array (10), String (4), Two Pointers (4), Hash Table (3), Math (3), Stack (1), Bracket Sequences (1), Linked List (1), Recursion (1), Binary Search (1), Bit Manipulation (1), Greedy (1)
 
 <!-- LC-SYNC:README-AUTO:END -->

@@ -1,4 +1,455 @@
 {
-  "last_synced_timestamp": 0,
-  "submissions": {}
+  "last_synced_timestamp": 1787466723,
+  "submissions": {
+    "2106261179": {
+      "lang": "c",
+      "problem_slug": "single-number",
+      "status": "Accepted",
+      "timestamp": 1786688686
+    },
+    "2106268982": {
+      "lang": "c",
+      "problem_slug": "single-number",
+      "status": "Accepted",
+      "timestamp": 1786689086
+    },
+    "2106326860": {
+      "lang": "c",
+      "problem_slug": "valid-parentheses",
+      "status": "Wrong Answer",
+      "timestamp": 1786692494
+    },
+    "2106327936": {
+      "lang": "c",
+      "problem_slug": "valid-parentheses",
+      "status": "Runtime Error",
+      "timestamp": 1786692571
+    },
+    "2106328830": {
+      "lang": "c",
+      "problem_slug": "valid-parentheses",
+      "status": "Runtime Error",
+      "timestamp": 1786692637
+    },
+    "2106329734": {
+      "lang": "c",
+      "problem_slug": "valid-parentheses",
+      "status": "Runtime Error",
+      "timestamp": 1786692705
+    },
+    "2106330624": {
+      "lang": "c",
+      "problem_slug": "valid-parentheses",
+      "status": "Wrong Answer",
+      "timestamp": 1786692774
+    },
+    "2106332310": {
+      "lang": "c",
+      "problem_slug": "valid-parentheses",
+      "status": "Accepted",
+      "timestamp": 1786692907
+    },
+    "2106332709": {
+      "lang": "c",
+      "problem_slug": "valid-parentheses",
+      "status": "Accepted",
+      "timestamp": 1786692938
+    },
+    "2106346126": {
+      "lang": "c",
+      "problem_slug": "valid-parentheses",
+      "status": "Runtime Error",
+      "timestamp": 1786694016
+    },
+    "2106346895": {
+      "lang": "c",
+      "problem_slug": "valid-parentheses",
+      "status": "Accepted",
+      "timestamp": 1786694080
+    },
+    "2106601606": {
+      "lang": "c",
+      "problem_slug": "plus-one",
+      "status": "Wrong Answer",
+      "timestamp": 1786712029
+    },
+    "2106630041": {
+      "lang": "c",
+      "problem_slug": "plus-one",
+      "status": "Accepted",
+      "timestamp": 1786713961
+    },
+    "2106643419": {
+      "lang": "c",
+      "problem_slug": "plus-one",
+      "status": "Accepted",
+      "timestamp": 1786714831
+    },
+    "2107404164": {
+      "lang": "c",
+      "problem_slug": "length-of-last-word",
+      "status": "Runtime Error",
+      "timestamp": 1786781402
+    },
+    "2107406722": {
+      "lang": "c",
+      "problem_slug": "length-of-last-word",
+      "status": "Accepted",
+      "timestamp": 1786781594
+    },
+    "2107420663": {
+      "lang": "c",
+      "problem_slug": "length-of-last-word",
+      "status": "Accepted",
+      "timestamp": 1786782643
+    },
+    "2107420967": {
+      "lang": "c",
+      "problem_slug": "length-of-last-word",
+      "status": "Accepted",
+      "timestamp": 1786782665
+    },
+    "2107421373": {
+      "lang": "c",
+      "problem_slug": "length-of-last-word",
+      "status": "Accepted",
+      "timestamp": 1786782697
+    },
+    "2107422497": {
+      "lang": "c",
+      "problem_slug": "length-of-last-word",
+      "status": "Accepted",
+      "timestamp": 1786782783
+    },
+    "2107427247": {
+      "lang": "c",
+      "problem_slug": "length-of-last-word",
+      "status": "Accepted",
+      "timestamp": 1786783128
+    },
+    "2107428292": {
+      "lang": "c",
+      "problem_slug": "length-of-last-word",
+      "status": "Accepted",
+      "timestamp": 1786783201
+    },
+    "2107911973": {
+      "lang": "c",
+      "problem_slug": "roman-to-integer",
+      "status": "Accepted",
+      "timestamp": 1786808345
+    },
+    "2108592497": {
+      "lang": "c",
+      "problem_slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "status": "Accepted",
+      "timestamp": 1786859443
+    },
+    "2108610229": {
+      "lang": "c",
+      "problem_slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "status": "Runtime Error",
+      "timestamp": 1786860471
+    },
+    "2108610463": {
+      "lang": "c",
+      "problem_slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "status": "Accepted",
+      "timestamp": 1786860486
+    },
+    "2108630360": {
+      "lang": "c",
+      "problem_slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "status": "Accepted",
+      "timestamp": 1786861614
+    },
+    "2108630538": {
+      "lang": "c",
+      "problem_slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "status": "Accepted",
+      "timestamp": 1786861623
+    },
+    "2108630920": {
+      "lang": "c",
+      "problem_slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "status": "Accepted",
+      "timestamp": 1786861643
+    },
+    "2108631700": {
+      "lang": "c",
+      "problem_slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "status": "Accepted",
+      "timestamp": 1786861687
+    },
+    "2108632245": {
+      "lang": "c",
+      "problem_slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "status": "Accepted",
+      "timestamp": 1786861716
+    },
+    "2108632484": {
+      "lang": "c",
+      "problem_slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "status": "Accepted",
+      "timestamp": 1786861731
+    },
+    "2108643721": {
+      "lang": "c",
+      "problem_slug": "two-sum",
+      "status": "Accepted",
+      "timestamp": 1786862361
+    },
+    "2108644323": {
+      "lang": "c",
+      "problem_slug": "two-sum",
+      "status": "Accepted",
+      "timestamp": 1786862397
+    },
+    "2108646373": {
+      "lang": "c",
+      "problem_slug": "two-sum",
+      "status": "Accepted",
+      "timestamp": 1786862520
+    },
+    "2108648093": {
+      "lang": "c",
+      "problem_slug": "two-sum",
+      "status": "Accepted",
+      "timestamp": 1786862622
+    },
+    "2108650082": {
+      "lang": "c",
+      "problem_slug": "two-sum",
+      "status": "Accepted",
+      "timestamp": 1786862735
+    },
+    "2108727215": {
+      "lang": "c",
+      "problem_slug": "remove-duplicates-from-sorted-array",
+      "status": "Runtime Error",
+      "timestamp": 1786867843
+    },
+    "2108731870": {
+      "lang": "c",
+      "problem_slug": "remove-duplicates-from-sorted-array",
+      "status": "Compile Error",
+      "timestamp": 1786868201
+    },
+    "2108732138": {
+      "lang": "c",
+      "problem_slug": "remove-duplicates-from-sorted-array",
+      "status": "Accepted",
+      "timestamp": 1786868222
+    },
+    "2108773031": {
+      "lang": "c",
+      "problem_slug": "remove-duplicates-from-sorted-array",
+      "status": "Accepted",
+      "timestamp": 1786871222
+    },
+    "2108774265": {
+      "lang": "c",
+      "problem_slug": "remove-duplicates-from-sorted-array",
+      "status": "Accepted",
+      "timestamp": 1786871304
+    },
+    "2108774481": {
+      "lang": "c",
+      "problem_slug": "remove-duplicates-from-sorted-array",
+      "status": "Accepted",
+      "timestamp": 1786871318
+    },
+    "2108774775": {
+      "lang": "c",
+      "problem_slug": "remove-duplicates-from-sorted-array",
+      "status": "Accepted",
+      "timestamp": 1786871338
+    },
+    "2109069156": {
+      "lang": "c",
+      "problem_slug": "palindrome-number",
+      "status": "Wrong Answer",
+      "timestamp": 1786889509
+    },
+    "2109070412": {
+      "lang": "c",
+      "problem_slug": "palindrome-number",
+      "status": "Accepted",
+      "timestamp": 1786889576
+    },
+    "2109077859": {
+      "lang": "c",
+      "problem_slug": "palindrome-number",
+      "status": "Accepted",
+      "timestamp": 1786889975
+    },
+    "2109082837": {
+      "lang": "c",
+      "problem_slug": "palindrome-number",
+      "status": "Accepted",
+      "timestamp": 1786890236
+    },
+    "2109087363": {
+      "lang": "c",
+      "problem_slug": "palindrome-number",
+      "status": "Accepted",
+      "timestamp": 1786890472
+    },
+    "2109092326": {
+      "lang": "c",
+      "problem_slug": "palindrome-number",
+      "status": "Accepted",
+      "timestamp": 1786890743
+    },
+    "2110414846": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Accepted",
+      "timestamp": 1786985585
+    },
+    "2110415995": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Accepted",
+      "timestamp": 1786985632
+    },
+    "2110417531": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Accepted",
+      "timestamp": 1786985696
+    },
+    "2110418302": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Compile Error",
+      "timestamp": 1786985726
+    },
+    "2110418950": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Accepted",
+      "timestamp": 1786985753
+    },
+    "2110423434": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Accepted",
+      "timestamp": 1786985928
+    },
+    "2110423668": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Accepted",
+      "timestamp": 1786985937
+    },
+    "2110423973": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Compile Error",
+      "timestamp": 1786985949
+    },
+    "2110424169": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Accepted",
+      "timestamp": 1786985956
+    },
+    "2110424675": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Accepted",
+      "timestamp": 1786985977
+    },
+    "2110425260": {
+      "lang": "c",
+      "problem_slug": "remove-element",
+      "status": "Accepted",
+      "timestamp": 1786986001
+    },
+    "2111606754": {
+      "lang": "c",
+      "problem_slug": "merge-strings-alternately",
+      "status": "Accepted",
+      "timestamp": 1787066795
+    },
+    "2111642204": {
+      "lang": "c",
+      "problem_slug": "kids-with-the-greatest-number-of-candies",
+      "status": "Accepted",
+      "timestamp": 1787068440
+    },
+    "2111707579": {
+      "lang": "c",
+      "problem_slug": "can-place-flowers",
+      "status": "Wrong Answer",
+      "timestamp": 1787071202
+    },
+    "2112442576": {
+      "lang": "c",
+      "problem_slug": "can-place-flowers",
+      "status": "Wrong Answer",
+      "timestamp": 1787128410
+    },
+    "2112444128": {
+      "lang": "c",
+      "problem_slug": "can-place-flowers",
+      "status": "Runtime Error",
+      "timestamp": 1787128513
+    },
+    "2112446005": {
+      "lang": "c",
+      "problem_slug": "can-place-flowers",
+      "status": "Compile Error",
+      "timestamp": 1787128636
+    },
+    "2112447372": {
+      "lang": "c",
+      "problem_slug": "can-place-flowers",
+      "status": "Runtime Error",
+      "timestamp": 1787128722
+    },
+    "2112602240": {
+      "lang": "c",
+      "problem_slug": "can-place-flowers",
+      "status": "Runtime Error",
+      "timestamp": 1787137677
+    },
+    "2112603701": {
+      "lang": "c",
+      "problem_slug": "can-place-flowers",
+      "status": "Accepted",
+      "timestamp": 1787137777
+    },
+    "2112879866": {
+      "lang": "c",
+      "problem_slug": "move-zeroes",
+      "status": "Accepted",
+      "timestamp": 1787153908
+    },
+    "2112934262": {
+      "lang": "c",
+      "problem_slug": "search-insert-position",
+      "status": "Accepted",
+      "timestamp": 1787156475
+    },
+    "2116188002": {
+      "lang": "c",
+      "problem_slug": "merge-two-sorted-lists",
+      "status": "Runtime Error",
+      "timestamp": 1787406113
+    },
+    "2117008669": {
+      "lang": "c",
+      "problem_slug": "merge-two-sorted-lists",
+      "status": "Wrong Answer",
+      "timestamp": 1787466471
+    },
+    "2117012952": {
+      "lang": "c",
+      "problem_slug": "merge-two-sorted-lists",
+      "status": "Accepted",
+      "timestamp": 1787466723
+    }
+  }
 }

@@ -1,0 +1,44 @@
+{
+  "content_fetched": true,
+  "content_markdown": "You are given a **large integer** represented as an integer array `digits`, where each `digits[i]` is the `i^th` digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading `0`'s.\n\nIncrement the large integer by one and return *the resulting array of digits*.\n\n \n\n**Example 1:**\n\n```\n\n**Input:** digits = [1,2,3]\n**Output:** [1,2,4]\n**Explanation:** The array represents the integer 123.\nIncrementing by one gives 123 + 1 = 124.\nThus, the result should be [1,2,4].\n\n```\n\n**Example 2:**\n\n```\n\n**Input:** digits = [4,3,2,1]\n**Output:** [4,3,2,2]\n**Explanation:** The array represents the integer 4321.\nIncrementing by one gives 4321 + 1 = 4322.\nThus, the result should be [4,3,2,2].\n\n```\n\n**Example 3:**\n\n```\n\n**Input:** digits = [9]\n**Output:** [1,0]\n**Explanation:** The array represents the integer 9.\nIncrementing by one gives 9 + 1 = 10.\nThus, the result should be [1,0].\n\n```\n\n \n\n**Constraints:**\n\n- `1 <= digits.length <= 100`\n\n- `0 <= digits[i] <= 9`\n\n- `digits` does not contain any leading `0`'s.",
+  "content_unavailable_reason": null,
+  "difficulty": "Easy",
+  "last_synced_at": "2026-08-26T08:34:03.412098+00:00",
+  "number": "66",
+  "slug": "plus-one",
+  "submissions": [
+    {
+      "code_saved": true,
+      "id": "2106601606",
+      "lang": "c",
+      "memory": "N/A",
+      "runtime": "N/A",
+      "status": "Wrong Answer",
+      "timestamp": 1786712029
+    },
+    {
+      "code_saved": true,
+      "id": "2106630041",
+      "lang": "c",
+      "memory": "10.1 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786713961
+    },
+    {
+      "code_saved": true,
+      "id": "2106643419",
+      "lang": "c",
+      "memory": "10 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1786714831
+    }
+  ],
+  "title": "Plus One",
+  "topics": [
+    "Array",
+    "Math"
+  ],
+  "url": "https://leetcode.com/problems/plus-one/"
+}
