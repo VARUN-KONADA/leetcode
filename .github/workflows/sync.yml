@@ -1,0 +1,69 @@
+name: Sync LeetCode
+
+on:
+  schedule:
+    # Every 6 hours. Frequent enough to pick up same-day solves without
+    # hammering LeetCode's unofficial endpoint. Adjust to taste.
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Full resync (walk entire submission history instead of just new items)"
+        required: false
+        default: "false"
+        type: boolean
+      dry_run:
+        description: "Dry run (show what would happen, commit nothing)"
+        required: false
+        default: "false"
+        type: boolean
+
+# Avoid two syncs racing each other and committing on top of one another.
+concurrency:
+  group: leetcode-sync
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run sync
+        id: sync
+        env:
+          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+        run: |
+          ARGS="-v"
+          if [ "${{ inputs.full }}" = "true" ]; then ARGS="$ARGS --full"; fi
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          python sync.py $ARGS
+
+      - name: Commit and push changes
+        if: ${{ inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "leetcode-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: sync LeetCode submissions [automated]"
+            git push
+          fi
