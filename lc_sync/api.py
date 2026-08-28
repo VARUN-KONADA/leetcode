@@ -126,7 +126,14 @@ class LeetCodeClient:
             {
                 "Content-Type": "application/json",
                 "Referer": config.BASE_URL,
-                "User-Agent": "lc-sync/1.0 (+https://github.com; personal LeetCode archive tool)",
+                # A generic bot-labeled User-Agent (e.g. "lc-sync/1.0") makes
+                # LeetCode's abuse detection more likely to flag the session
+                # as hijacked and force-logout the real browser session that
+                # owns the cookie. A normal desktop-browser UA avoids that.
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                    "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+                ),
             }
         )
         if credentials and credentials.is_present:
