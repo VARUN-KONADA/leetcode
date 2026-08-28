@@ -1,5 +1,5 @@
 {
-  "last_synced_timestamp": 1787466723,
+  "last_synced_timestamp": 1787845453,
   "submissions": {
     "2106261179": {
       "lang": "c",
@@ -450,6 +450,12 @@
       "problem_slug": "merge-two-sorted-lists",
       "status": "Accepted",
       "timestamp": 1787466723
+    },
+    "2122065312": {
+      "lang": "c",
+      "problem_slug": "detect-capital",
+      "status": "Accepted",
+      "timestamp": 1787845453
     }
   }
 }

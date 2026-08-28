@@ -1,0 +1,25 @@
+{
+  "content_fetched": true,
+  "content_markdown": "We define the usage of capitals in a word to be right when one of the following cases holds:\n\n- All letters in this word are capitals, like `\"USA\"`.\n\n- All letters in this word are not capitals, like `\"leetcode\"`.\n\n- Only the first letter in this word is capital, like `\"Google\"`.\n\nGiven a string `word`, return `true` if the usage of capitals in it is right.\n\n \n\n**Example 1:**\n\n```\n**Input:** word = \"USA\"\n**Output:** true\n\n```\n\n**Example 2:**\n\n```\n**Input:** word = \"FlaG\"\n**Output:** false\n\n```\n\n \n\n**Constraints:**\n\n- `1 <= word.length <= 100`\n\n- `word` consists of lowercase and uppercase English letters.",
+  "content_unavailable_reason": null,
+  "difficulty": "Easy",
+  "last_synced_at": "2026-08-28T07:27:34.282761+00:00",
+  "number": "520",
+  "slug": "detect-capital",
+  "submissions": [
+    {
+      "code_saved": true,
+      "id": "2122065312",
+      "lang": "c",
+      "memory": "8.6 MB",
+      "runtime": "0 ms",
+      "status": "Accepted",
+      "timestamp": 1787845453
+    }
+  ],
+  "title": "Detect Capital",
+  "topics": [
+    "String"
+  ],
+  "url": "https://leetcode.com/problems/detect-capital/"
+}
