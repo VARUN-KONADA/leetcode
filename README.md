@@ -6,7 +6,7 @@ An automatically maintained archive of my LeetCode solutions, synced automatical
 
 ## 📊 LeetCode Dashboard
 
-_Last synced: 2026-08-31 19:25 IST_
+_Last synced: 2026-09-01 04:22 IST_
 
 ### Overall Progress
 
@@ -54,7 +54,7 @@ _Last synced: 2026-08-31 19:25 IST_
 ### Weekly / Monthly / Yearly Progress
 
 - This week: **0** unique problem(s) solved
-- This month: **17** unique problem(s) solved
+- This month: **0** unique problem(s) solved
 - This year: **17** unique problem(s) solved
 
 ### Monthly Activity
